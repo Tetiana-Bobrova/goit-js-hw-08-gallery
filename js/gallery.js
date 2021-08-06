@@ -24,3 +24,11 @@ function createGalleryItemsMarkup(galleryItems) {
     ).join('');
 }
 
+
+galleryItemList.addEventListener('click', onOpenModal);
+
+function onOpenModal(event) {
+    console.log(event.target.nodeName);
+    console.log("Открытие модального окна");
+
+}
